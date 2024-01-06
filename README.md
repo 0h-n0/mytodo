@@ -51,13 +51,20 @@ $ sea-orm-cli migrate init
 #### execute migration
 
 ```bash
-sea-orm-cli migrate refresh  
+$ sea-orm-cli migrate refresh  
 ```
 
 #### generate entity
 
 ```bash
 $ sea-orm-cli generate entity -u ${DATABASE_URL} -o entity/src
+```
+
+### start Backend
+
+```bash
+$ cd backend
+$ cargo run
 ```
 
 ### Note
@@ -83,7 +90,6 @@ pub struct Model {
     pub completed: bool,
 }
 ```
-
 
 ## Reference
 
