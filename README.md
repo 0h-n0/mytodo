@@ -3,7 +3,7 @@
 * (WIP) frontend/React
 * (DONE) backend/Rust(Axum)
   * Sea-Orm
-* (DONW) database/PostgreSQL
+* (DONE) database/PostgreSQL
 * (WIP) cloud/terraform
   * AWS
 
